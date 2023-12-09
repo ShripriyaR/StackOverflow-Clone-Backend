@@ -24,7 +24,7 @@ app.use('/answer', answerRoutes)
 const PORT = process.env.PORT || 5000;
 
 
-const DATABASE_URL = "mongodb://localhost:27017/stackoverflow";
+const DATABASE_URL = "mongodb+srv://AdminStack:jqe0UEHdN2cxL1sO@stackoverflow-clone.dme1dth.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose.set('strictQuery', false);
 
